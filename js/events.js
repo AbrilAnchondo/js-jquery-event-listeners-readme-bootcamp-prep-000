@@ -12,7 +12,9 @@ function frameIt () {
 }
 
 function pressIt () {
-  $('')
+  $('form').on("input", function(key) {
+    if (key.which === 
+  });
 }
 
 $(document).ready(function(){
